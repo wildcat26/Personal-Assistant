@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b37fda3426cbf81b15306a529e00922",
+    "revision": "112f5a10dfd7209e646969789904cad2",
     "url": "/Personal-Assistant/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Assistant/static/css/2.5f981152.chunk.css"
   },
   {
-    "revision": "df149af7c5f1b04aa829",
+    "revision": "6aab6bce8f34778a2af2",
     "url": "/Personal-Assistant/static/css/main.8e9f8467.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Assistant/static/js/2.377df1b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df149af7c5f1b04aa829",
-    "url": "/Personal-Assistant/static/js/main.dd282158.chunk.js"
+    "revision": "6aab6bce8f34778a2af2",
+    "url": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js"
   },
   {
     "revision": "f7bdf0cfc9ea0dd44285692948c2d84f",
-    "url": "/Personal-Assistant/static/js/main.dd282158.chunk.js.LICENSE.txt"
+    "url": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0cf12879525002fcf0ec",

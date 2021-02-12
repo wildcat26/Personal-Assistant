@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Personal-Assistant/static/css/main.8e9f8467.chunk.css",
-    "main.js": "/Personal-Assistant/static/js/main.dd282158.chunk.js",
-    "main.js.map": "/Personal-Assistant/static/js/main.dd282158.chunk.js.map",
+    "main.js": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js",
+    "main.js.map": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js.map",
     "runtime-main.js": "/Personal-Assistant/static/js/runtime-main.274f802a.js",
     "runtime-main.js.map": "/Personal-Assistant/static/js/runtime-main.274f802a.js.map",
     "static/css/2.5f981152.chunk.css": "/Personal-Assistant/static/css/2.5f981152.chunk.css",
     "static/js/2.377df1b1.chunk.js": "/Personal-Assistant/static/js/2.377df1b1.chunk.js",
     "static/js/2.377df1b1.chunk.js.map": "/Personal-Assistant/static/js/2.377df1b1.chunk.js.map",
     "index.html": "/Personal-Assistant/index.html",
-    "precache-manifest.b51fb332aa8691bfeb7f6ba0fb58bcc0.js": "/Personal-Assistant/precache-manifest.b51fb332aa8691bfeb7f6ba0fb58bcc0.js",
+    "precache-manifest.bad059501a893d834f7cfeefe25ae2c9.js": "/Personal-Assistant/precache-manifest.bad059501a893d834f7cfeefe25ae2c9.js",
     "service-worker.js": "/Personal-Assistant/service-worker.js",
     "static/css/2.5f981152.chunk.css.map": "/Personal-Assistant/static/css/2.5f981152.chunk.css.map",
     "static/css/main.8e9f8467.chunk.css.map": "/Personal-Assistant/static/css/main.8e9f8467.chunk.css.map",
     "static/js/2.377df1b1.chunk.js.LICENSE.txt": "/Personal-Assistant/static/js/2.377df1b1.chunk.js.LICENSE.txt",
-    "static/js/main.dd282158.chunk.js.LICENSE.txt": "/Personal-Assistant/static/js/main.dd282158.chunk.js.LICENSE.txt",
+    "static/js/main.6bc9e31b.chunk.js.LICENSE.txt": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js.LICENSE.txt",
     "static/media/marc.jpg": "/Personal-Assistant/static/media/marc.8880a65c.jpg",
     "static/media/sidebar-1.jpg": "/Personal-Assistant/static/media/sidebar-1.8e9f0a3c.jpg",
     "static/media/sidebar-2.jpg": "/Personal-Assistant/static/media/sidebar-2.310509c9.jpg",
@@ -26,6 +26,6 @@
     "static/css/2.5f981152.chunk.css",
     "static/js/2.377df1b1.chunk.js",
     "static/css/main.8e9f8467.chunk.css",
-    "static/js/main.dd282158.chunk.js"
+    "static/js/main.6bc9e31b.chunk.js"
   ]
 }

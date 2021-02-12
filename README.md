@@ -61,5 +61,5 @@ Deployed React application: https://wildcat26.github.io/Personal-Assistant
 
 Do note that refreshing the page after it is rendered will cause a 404 Page Not Found error since https://wildcat26.github.io/Personal-Assistant routes to https://wildcat26.github.io/admin/dashboard, not vice versa.
 
-Demo Video:
+Demo Video: https://drive.google.com/drive/u/0/folders/1gSzltHpelkZf8p9Qr3xNF1L9qIji1vqn
 

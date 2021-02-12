@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/material-dashboard-react/static/css/main.8e9f8467.chunk.css",
-    "main.js": "/material-dashboard-react/static/js/main.dd282158.chunk.js",
-    "main.js.map": "/material-dashboard-react/static/js/main.dd282158.chunk.js.map",
-    "runtime-main.js": "/material-dashboard-react/static/js/runtime-main.d0bf2bb1.js",
-    "runtime-main.js.map": "/material-dashboard-react/static/js/runtime-main.d0bf2bb1.js.map",
-    "static/css/2.5f981152.chunk.css": "/material-dashboard-react/static/css/2.5f981152.chunk.css",
-    "static/js/2.377df1b1.chunk.js": "/material-dashboard-react/static/js/2.377df1b1.chunk.js",
-    "static/js/2.377df1b1.chunk.js.map": "/material-dashboard-react/static/js/2.377df1b1.chunk.js.map",
-    "index.html": "/material-dashboard-react/index.html",
-    "precache-manifest.62453a5ad574752a75189f0b5f733df3.js": "/material-dashboard-react/precache-manifest.62453a5ad574752a75189f0b5f733df3.js",
-    "service-worker.js": "/material-dashboard-react/service-worker.js",
-    "static/css/2.5f981152.chunk.css.map": "/material-dashboard-react/static/css/2.5f981152.chunk.css.map",
-    "static/css/main.8e9f8467.chunk.css.map": "/material-dashboard-react/static/css/main.8e9f8467.chunk.css.map",
-    "static/js/2.377df1b1.chunk.js.LICENSE.txt": "/material-dashboard-react/static/js/2.377df1b1.chunk.js.LICENSE.txt",
-    "static/js/main.dd282158.chunk.js.LICENSE.txt": "/material-dashboard-react/static/js/main.dd282158.chunk.js.LICENSE.txt",
-    "static/media/marc.jpg": "/material-dashboard-react/static/media/marc.8880a65c.jpg",
-    "static/media/sidebar-1.jpg": "/material-dashboard-react/static/media/sidebar-1.8e9f0a3c.jpg",
-    "static/media/sidebar-2.jpg": "/material-dashboard-react/static/media/sidebar-2.310509c9.jpg",
-    "static/media/sidebar-3.jpg": "/material-dashboard-react/static/media/sidebar-3.25031690.jpg",
-    "static/media/sidebar-4.jpg": "/material-dashboard-react/static/media/sidebar-4.fc9cb053.jpg"
+    "main.css": "/Personal-Assistant/static/css/main.8e9f8467.chunk.css",
+    "main.js": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js",
+    "main.js.map": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js.map",
+    "runtime-main.js": "/Personal-Assistant/static/js/runtime-main.274f802a.js",
+    "runtime-main.js.map": "/Personal-Assistant/static/js/runtime-main.274f802a.js.map",
+    "static/css/2.5f981152.chunk.css": "/Personal-Assistant/static/css/2.5f981152.chunk.css",
+    "static/js/2.377df1b1.chunk.js": "/Personal-Assistant/static/js/2.377df1b1.chunk.js",
+    "static/js/2.377df1b1.chunk.js.map": "/Personal-Assistant/static/js/2.377df1b1.chunk.js.map",
+    "index.html": "/Personal-Assistant/index.html",
+    "precache-manifest.bad059501a893d834f7cfeefe25ae2c9.js": "/Personal-Assistant/precache-manifest.bad059501a893d834f7cfeefe25ae2c9.js",
+    "service-worker.js": "/Personal-Assistant/service-worker.js",
+    "static/css/2.5f981152.chunk.css.map": "/Personal-Assistant/static/css/2.5f981152.chunk.css.map",
+    "static/css/main.8e9f8467.chunk.css.map": "/Personal-Assistant/static/css/main.8e9f8467.chunk.css.map",
+    "static/js/2.377df1b1.chunk.js.LICENSE.txt": "/Personal-Assistant/static/js/2.377df1b1.chunk.js.LICENSE.txt",
+    "static/js/main.6bc9e31b.chunk.js.LICENSE.txt": "/Personal-Assistant/static/js/main.6bc9e31b.chunk.js.LICENSE.txt",
+    "static/media/marc.jpg": "/Personal-Assistant/static/media/marc.8880a65c.jpg",
+    "static/media/sidebar-1.jpg": "/Personal-Assistant/static/media/sidebar-1.8e9f0a3c.jpg",
+    "static/media/sidebar-2.jpg": "/Personal-Assistant/static/media/sidebar-2.310509c9.jpg",
+    "static/media/sidebar-3.jpg": "/Personal-Assistant/static/media/sidebar-3.25031690.jpg",
+    "static/media/sidebar-4.jpg": "/Personal-Assistant/static/media/sidebar-4.fc9cb053.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0bf2bb1.js",
+    "static/js/runtime-main.274f802a.js",
     "static/css/2.5f981152.chunk.css",
     "static/js/2.377df1b1.chunk.js",
     "static/css/main.8e9f8467.chunk.css",
-    "static/js/main.dd282158.chunk.js"
+    "static/js/main.6bc9e31b.chunk.js"
   ]
 }

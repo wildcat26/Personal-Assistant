@@ -32,16 +32,16 @@ import CardFooter from "components/Card/CardFooter.js";
 import { tasks, followUp, meetings } from "variables/general.js";
 
 import {
-  dailySalesChart,
-  emailsSubscriptionChart,
+  dailyHoursChart,
+  totalTasksChart,
   completedTasksChart
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
 const useStyles = makeStyles(styles);
-export var total = 0;
-export var done = 0;
+export var total = 8;
+export var done = 4;
 
 export default function Dashboard() {
   const classes = useStyles();
@@ -61,12 +61,6 @@ export default function Dashboard() {
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
-                <Danger>
-                  <Warning />
-                </Danger>
-                <a href="#pablo" onClick={e => e.preventDefault()}>
-                  Get more space
-                </a>
               </div>
             </CardFooter>
           </Card>
@@ -82,8 +76,6 @@ export default function Dashboard() {
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
-                <DateRange />
-                Last 24 Hours
               </div>
             </CardFooter>
           </Card>
@@ -99,8 +91,6 @@ export default function Dashboard() {
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
-                <LocalOffer />
-                Tracked from Github
               </div>
             </CardFooter>
           </Card>
@@ -112,12 +102,10 @@ export default function Dashboard() {
                 <Accessibility />
               </CardIcon>
               <p className={classes.cardCategory}>Active hours today</p>
-              <h3 className={classes.cardTitle}>5.5</h3>
+              <h3 className={classes.cardTitle}>19</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
-                <Update />
-                Just Updated
               </div>
             </CardFooter>
           </Card>
@@ -129,19 +117,19 @@ export default function Dashboard() {
             <CardHeader color="success">
               <ChartistGraph
                 className="ct-chart"
-                data={dailySalesChart.data}
+                data={dailyHoursChart.data}
                 type="Line"
-                options={dailySalesChart.options}
-                listener={dailySalesChart.animation}
+                options={dailyHoursChart.options}
+                listener={dailyHoursChart.animation}
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Daily Count</h4>
+              <h4 className={classes.cardTitle}>Active Hours</h4>
               <p className={classes.cardCategory}>
                 <span className={classes.successText}>
-                  <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+                  <ArrowUpward className={classes.upArrowCardCategory} /> 111%
                 </span>{" "}
-                increase in today sales.
+                increase in today's active hours
               </p>
             </CardBody>
             <CardFooter chart>
@@ -156,20 +144,20 @@ export default function Dashboard() {
             <CardHeader color="warning">
               <ChartistGraph
                 className="ct-chart"
-                data={emailsSubscriptionChart.data}
+                data={totalTasksChart.data}
                 type="Bar"
-                options={emailsSubscriptionChart.options}
-                responsiveOptions={emailsSubscriptionChart.responsiveOptions}
-                listener={emailsSubscriptionChart.animation}
+                options={totalTasksChart.options}
+                responsiveOptions={totalTasksChart.responsiveOptions}
+                listener={totalTasksChart.animation}
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Email Subscriptions</h4>
+              <h4 className={classes.cardTitle}>Total Tasks</h4>
               <p className={classes.cardCategory}>Last Campaign Performance</p>
             </CardBody>
             <CardFooter chart>
               <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
+                <AccessTime /> updated 4 minutes ago
               </div>
             </CardFooter>
           </Card>
@@ -191,7 +179,7 @@ export default function Dashboard() {
             </CardBody>
             <CardFooter chart>
               <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
+                <AccessTime /> updated 4 minutes ago
               </div>
             </CardFooter>
           </Card>

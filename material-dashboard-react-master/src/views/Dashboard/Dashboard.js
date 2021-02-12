@@ -40,6 +40,8 @@ import {
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
 const useStyles = makeStyles(styles);
+export var total = 0;
+export var done = 0;
 
 export default function Dashboard() {
   const classes = useStyles();
@@ -54,7 +56,7 @@ export default function Dashboard() {
               </CardIcon>
               <p className={classes.cardCategory}>Tasks for today</p>
               <h3 className={classes.cardTitle}>
-                14
+	  	{total} 
               </h3>
             </CardHeader>
             <CardFooter stats>
@@ -76,7 +78,7 @@ export default function Dashboard() {
                 <Store />
               </CardIcon>
               <p className={classes.cardCategory}>Successfully Completed</p>
-              <h3 className={classes.cardTitle}>4</h3>
+              <h3 className={classes.cardTitle}>{done}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -93,7 +95,7 @@ export default function Dashboard() {
                 <Icon>info_outline</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>In Progress</p>
-              <h3 className={classes.cardTitle}>10</h3>
+              <h3 className={classes.cardTitle}>{total - done}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -248,12 +250,12 @@ export default function Dashboard() {
             <CardBody>
               <Table
                 tableHeaderColor="warning"
-                tableHead={["ID", "Name", "Pomodoro cycles Completed"]}
+                tableHead={["ID", "Name", "Active Hours"]}
                 tableData={[
-                  ["3", "Sage Rodriguez", "56,142"],
-                  ["4", "Philip Chaney", "38,735"],
-                  ["1", "Dakota Rice", "36,738"],
-                  ["2", "Minerva Hooper", "23,789"]
+                  ["3", "Sage Rodriguez", "562"],
+                  ["4", "Philip Chaney", "383"],
+                  ["1", "Dakota Rice", "367"],
+                  ["2", "Minerva Hooper", "239"]
                 ]}
               />
             </CardBody>
@@ -262,4 +264,12 @@ export default function Dashboard() {
       </GridContainer>
     </div>
   );
+}
+
+export function incrementDone() {
+	++done;
+}
+
+export function decrementDone() {
+	--done;
 }

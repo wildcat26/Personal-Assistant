@@ -16,6 +16,7 @@ import Close from "@material-ui/icons/Close";
 import Check from "@material-ui/icons/Check";
 // core components
 import styles from "assets/jss/material-dashboard-react/components/tasksStyle.js";
+import {incrementDone, decrementDone} from "views/Dashboard/Dashboard.js"
 
 const useStyles = makeStyles(styles);
 
@@ -27,9 +28,15 @@ export default function Tasks(props) {
     const newChecked = [...checked];
     if (currentIndex === -1) {
       newChecked.push(value);
+      incrementDone();
+
     } else {
       newChecked.splice(currentIndex, 1);
+      decrementDone();
     }
+    console.log(currentIndex);
+    console.log(checked);
+    console.log(newChecked);
     setChecked(newChecked);
   };
   const { tasksIndexes, tasks, rtlActive } = props;

@@ -17,6 +17,7 @@
     "react": "16.13.1",
     "react-calendar": "^3.3.1",
     "react-chartist": "0.14.3",
+    "react-date-picker-cs": "^0.1.28",
     "react-datetime-picker": "^3.0.5",
     "react-dom": "16.13.1",
     "react-google-maps": "9.4.5",
